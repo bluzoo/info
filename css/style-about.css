@@ -27,6 +27,24 @@ nav {
   padding: 0.25em;
 }
 
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  text-decoration: none;
+  position: absolute;
+  top: -40px;
+}
+
+
+.skip a:focus{
+  top: 0px;
+}
+
+
 header{
   background: #fff;
   display: flex;
@@ -52,7 +70,7 @@ header{
 }
 
 .nav_item a:hover, a:focus{
-  
+
   color: #0000ff;
   text-decoration: underline;
   -webkit-text-decoration-style: dotted;
@@ -127,20 +145,4 @@ footer{
 
 .smaller {
   font-size: 0.75em
-}
-
-@media screen and (min-width: 850px){
-    .profile {
-      flex-basis: 400px;
-    }
-  
-
-@media print {
-
-}
-
-/*Your code here again.*/
-/*Add media query to handle reduced-motion*/
-@media (prefers-reduced-motion: reduce){
-
 }
