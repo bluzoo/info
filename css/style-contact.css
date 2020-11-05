@@ -63,16 +63,16 @@ main {
 }
 
 body{
-    font-family: 'Libre Franklin', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 14pt;
-    background-color: #ffffff;
-    display: grid;
-    max-height: 100%;
-    max-width: 100%;
-    grid-template-rows: repeat(12, 1fr);
-  }
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+  background-color: #ffffff;
+  display: grid;
+  max-height: 100%;
+  max-width: 100%;
+  grid-template-rows: repeat(12, 1fr);
+}
 
 .container {
     padding: 1em;
