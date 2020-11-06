@@ -85,6 +85,12 @@ header{
           text-decoration-style: dotted;
 }
 
+#here {
+  text-decoration: line-through; 
+  text-decoration-thickness: 0.20em;
+  text-decoration-color: #ffff00;
+}
+
 main {
   grid-row: 3/-2;
 }

@@ -61,6 +61,12 @@ header{
           text-decoration-style: dotted;
 }
 
+#here {
+  text-decoration: line-through; 
+  text-decoration-thickness: 0.20em;
+  text-decoration-color: #ffff00;
+}
+
 h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.5em;
