@@ -79,10 +79,6 @@ main{
   overflow: scroll;
 }
 
-#main {
-  grid-row: 4/-2;
-}
-
 body{
     font-family: 'Libre Franklin', sans-serif;
     margin: 0;
