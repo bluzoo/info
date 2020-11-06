@@ -131,7 +131,7 @@ li{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.location, .title, .school{
+.location, .title{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -142,7 +142,7 @@ li{
 .school {
   color: #595959;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   line-height: 1.25;
 }
 
