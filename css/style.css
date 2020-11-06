@@ -88,7 +88,7 @@ main {
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 0.025em #000000;
   padding-left: 0.5em;
-  bottom: 3em;
+  bottom: 1.75em;
   position: fixed;
   background: #ffff00;
   width: 75%;

@@ -60,6 +60,7 @@ header{
 
 main {
   grid-row: 3/-2;
+  position: relative;
 }
 
 body{
@@ -81,7 +82,8 @@ body{
 
 h1{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
+    padding: 1em;
 }
 
 footer{
@@ -131,8 +133,4 @@ input[type=submit]:hover{
 
 input[type=submit]:focus{
     background-color: #ff7b00;
-}
-
-label{
-    font-size: 14px;
 }
