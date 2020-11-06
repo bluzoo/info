@@ -80,6 +80,7 @@ main{
 
 #main {
   grid-row: 4/-2;
+  overflow: scroll;
 }
 
 body{
