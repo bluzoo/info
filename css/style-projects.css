@@ -159,10 +159,7 @@ footer{
   text-align: center;
   line-height: 1.5;
   font-size: 0.75em;
-  bottom: 0;
-  position:fixed;
-  width: 100%;
-  grid-row: -2/-1;
+  grid-row: 12/-1;
 }
 
 .smaller {
