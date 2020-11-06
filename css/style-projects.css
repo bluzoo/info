@@ -131,12 +131,13 @@ body{
 
   div img{
     height: 700px;
+    min-width: 100%;
     object-fit: cover;
 }
 
-  .project, .project-image{
-      grid-row: 1;
-  }
+.project, .project-image{
+    grid-row: 1;
+}
 
   .project2, .project2-image{
     grid-row: 2;
