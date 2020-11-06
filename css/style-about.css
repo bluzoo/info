@@ -12,10 +12,16 @@ body{
   grid-template-rows: repeat(12, 1fr);
 }
 
-main p {
+main h1, main p {
     padding: 1em;
-    line-height: 1.25;
+    line-height: 1.15em;
 }
+
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5em;
+}
+
 
 #logo{
   height: 5em;
@@ -28,7 +34,7 @@ nav {
 }
 
 .skip a{
-  background: white;
+  background: #ffff00;
   left: 0;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
@@ -37,11 +43,13 @@ nav {
   text-decoration: none;
   position: absolute;
   top: -40px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
-
 
 .skip a:focus{
   top: 0px;
+  color: #000000;
+
 }
 
 
