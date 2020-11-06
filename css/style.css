@@ -115,7 +115,6 @@ div.slideshow-container {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* Fading animation */
