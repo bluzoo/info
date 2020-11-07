@@ -28,10 +28,10 @@ main p{padding: 1.5em;}
 #logo{
   height: 5em;
   padding: 0.25em;
-}g
+}
 
 /* Navbar */
-nav {
+nav{
   padding: 0.25em;
 }
 
@@ -131,7 +131,7 @@ li{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.location, .title{
+.location, .titleg{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
