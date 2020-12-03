@@ -23,14 +23,14 @@
 
       function load(){
         const loader = document.querySelector(".loader");
-        if (document.readyState == "complete"){
-          $(".loader").fadeOut(4000);
-          loader.remove(loader);
-        };
-        console.log("Page loaded");
+        setTimeout(function(){
+          loader.className += " hidden";
+        }, 500);
       };
 
       window.addEventListener("load", load);
+      console.log("Page loaded");
+
 
     </script>
 
