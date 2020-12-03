@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style-colab.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>BluZoo - Projects</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+      <a href="index.html">
+         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+      </a>
+      <nav>
+        <ul class="nav_links">
+            <li class="nav_item"><a href="about.html">about</a></li>
+            <li class="nav_item" id = "here"><a href="projects.html">projects</a></li>
+            <li class="nav_item"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>COVID COLOR LAB.02</h1>
+        <div class="back">
+          <button onclick="back()">Back to Projects</button>
+          <button onclick="prev()">Go to Colab.01</button>
+        </div>
+        <p id="main" lang="ja">
+            あなたはコロナについてどんな経験をしましたか？
+          <br><br>
+            ここ半年間スマホで撮った写真を振り返ってみれば、ご自身がコロナの中で経験したエ
+            ピソードを何か思い出しませんか？
+          <br><br>
+            「Covid Color Lab」は、アーティストグループのBluZooにより、コロナという非日常事件
+            の中で人々のごく普通な生活を記録する企画です。
+          <br><br>
+            Blue Ribbon Cafeのお客様からの投稿に基づいて、また新しいインスタレーションを作っ
+            ていきたいと思います。
+        </p>
+
+        <div class="container">
+          <iframe class="iframe" title="Colab.02 - Video" src="https://www.youtube.com/embed/rnvvpCCI384" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p>bluzoo artist collective</p>
+        <p>&copy; angel tang - 2020</p>
+    </footer>
+
+    <script>
+      function back() {
+        window.history.back();
+      }
+      function prev() {
+        window.location.href="./colab-01.html";
+      }
+    </script>
+  </body>
+</html>
