@@ -231,6 +231,10 @@ footer{
 }
 
 @media (prefers-reduced-motion: reduce){
+  .loader{
+    animation: none;
+  }
+  
   .fade {
     animation: none;
   }
