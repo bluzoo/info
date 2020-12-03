@@ -19,17 +19,14 @@
       <p>loading</p>
     </div>
     <script>
+      
       function load(){
         const loader = document.querySelector(".loader");
         loader.className += " hidden";
         console.log("Page loaded");
       };
 
-      function delay(){
-        setTimeout(load, 2000);
-      };
-
-      window.addEventListener("load", delay);
+      window.addEventListener("load", load);
 
     </script>
 

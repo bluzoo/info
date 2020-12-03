@@ -208,7 +208,11 @@ footer{
 
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 1920px){
+=======
+@media screen and (min-width: 1080px){
+>>>>>>> 195be26f7568da8c30d91036ecf343d05c1e939d
   .container{
     grid-template-rows: 800px;
     grid-template-columns: 3fr 1fr 0.25fr 3fr 1fr;
