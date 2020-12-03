@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style-colab.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>BluZoo - Projects</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+      <a href="index.html">
+         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+      </a>
+      <nav>
+        <ul class="nav_links">
+            <li class="nav_item"><a href="about.html">about</a></li>
+            <li class="nav_item" id = "here"><a href="projects.html">projects</a></li>
+            <li class="nav_item"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>COVID COLOR LAB.01</h1>
+        <div class="back">
+          <button onclick="back()">Back to Projects</button>
+          <button onclick="next()">Go to Colab.02</button>
+        </div>
+        <p id="main">
+            In Covid Color Lab.01 (CoLab.01), we attempted to envision new forms of interpersonal bonds and connections at a time of isolation
+            and distancing. In this installation, we merged the colors chosen by the participants on an acrylic pour painting. In this immersive
+            space, a visitor can reflect on their coexistence with others during this global crisis. While global pandemic has forever changed our
+            expectations for public spaces and social gatherings, we hope to redeem our declining communal experience.
+        </p>
+        <!-- add video -->
+        <!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2 -->
+        <div class="container">
+          <iframe class="iframe" title="Colab.01 Video" src="https://www.youtube.com/embed/v2SqEMirEFA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>bluzoo artist collective</p>
+        <p>&copy; angel tang - 2020</p>
+    </footer>
+
+    <script>
+      function back() {
+        window.history.back();
+      }
+      function next() {
+        window.location.href="./colab-02.html";
+      }
+    </script>
+  </body>
+</html>

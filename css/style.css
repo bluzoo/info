@@ -15,6 +15,23 @@ body{
   overflow:hidden;
 }
 
+.skip a{
+  background: #ffff00;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  text-decoration: none;
+  position: absolute;
+  top: -40px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.skip a:focus{
+  top: 0px;
+  color: #000000;
+}
 
 #logo{
   height: 5em;
@@ -154,4 +171,31 @@ footer{
   .fade {
     animation: none;
   }
+
+  .skip a{
+    -webkit-transition: none; /* sets to default setting */
+    transition: none;        /* sets to default setting */
+   }
+}
+
+@media screen and (min-width: 850px){
+
+  .container{
+      width: 64%;
+      padding-top: 36%; /* maintain 16:9 ratio */
+      margin-top: 1.5em;
+  }
+
+  nav{
+      padding-right: 3em;
+  }
+
+  #logo{
+      padding-left: 3em;
+  }
+
+  h1{
+    padding-left: 1.5em;
+  }
+
 }
