@@ -61,6 +61,10 @@ header{
           text-decoration-style: dotted;
 }
 
+li.nav_item#here a:hover, a:focus{
+  color: #ffff00;
+}
+
 #here {
   text-decoration: line-through;
   text-decoration-thickness: 0.20em;
