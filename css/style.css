@@ -109,7 +109,7 @@ div.slideshow-container {
 }
 
 .slides img{
-  height: 700px;
+  height: 100vh;
   min-width: 100%;
   object-fit: cover;
 }
