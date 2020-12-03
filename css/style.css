@@ -214,18 +214,6 @@ footer{
 
 }
 
-.loader.hidden {
-  animation: fadeOut 4s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeOut {
-  100% {
-      opacity: 0;
-      visibility: hidden;
-  }
-}
-
 @media (prefers-reduced-motion: reduce){
   .fade {
     animation: none;

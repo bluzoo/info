@@ -10,10 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>BluZoo - Welcome</title>
   </head>
   <body>
-    <!-- Loader -->
+    <!-- Loader: removed after loaded -->
     <div class="loader">
       <p>loading</p>
       <p>loading</p>
@@ -22,8 +23,8 @@
 
       function load(){
         const loader = document.querySelector(".loader");
-        loader.className += " hidden";
         if (document.readyState == "complete"){
+          $(".loader").fadeOut(4000);
           loader.remove(loader);
         };
         console.log("Page loaded");
