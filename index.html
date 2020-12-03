@@ -23,6 +23,9 @@
       function load(){
         const loader = document.querySelector(".loader");
         loader.className += " hidden";
+        if (document.readyState == "complete"){
+          loader.remove(loader);
+        };
         console.log("Page loaded");
       };
 
