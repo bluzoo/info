@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style-colab.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>BluZoo - Projects</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+      <a href="index.html">
+         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+      </a>
+      <nav>
+        <ul class="nav_links">
+            <li class="nav_item"><a href="about.html">about</a></li>
+            <li class="nav_item" id = "here"><a href="projects.html">projects</a></li>
+            <li class="nav_item"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <h1>COVID COLOR LAB.00</h1>
+        <div class="back">
+          <button onclick="back()">Back to Projects</button>
+          <button onclick="colab02()">Go to Colab.02</button>
+          <button onclick="colab01()">Go to Colab.01</button>
+        </div>
+        <p id="main">
+          Comprised of an interactive digital archive and an immersive
+          installation, CoLab envisions a new form of
+          interpersonal bonds and connections at a time of crisis. Over the
+          course of a year, we will invite users to share photography, videos, or
+          writings as a snapshot of their life during the pandemic. With each
+          upload to the website, the user could choose and scatter a drop of
+          color into a painting on water, which appears as the archive’s
+          interface. This drop will then merge, swirl, and interact with existing
+          colors, renewing the painting with a tint of unexpectedness and
+          wonder.
+        </p>
+        <div class = "container">
+          <img class = "iframe" src="images/colab-00/00_Page_10.png" alt="Wireframe of the interactive digital archive website" width=100%/>
+        </div>
+        <div class = "container">
+          <img class = "iframe" src="images/colab-00/Wireframe.png" alt="Wireframe of the interactive digital archive website" width=100%/>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <p>bluzoo artist collective</p>
+        <p>&copy; angel tang - 2020</p>
+    </footer>
+
+    <script>
+      function back() {
+        window.history.back();
+      }
+      function colab02() {
+        window.location.href="./colab-02.html";
+      }
+      function colab01() {
+        window.location.href="./colab-01.html";
+      }
+    </script>
+  </body>
+</html>

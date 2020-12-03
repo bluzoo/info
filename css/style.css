@@ -167,6 +167,65 @@ footer{
   font-size: 0.75em
 }
 
+/* Loader animation */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader p {
+  font-family:'IBM Plex Sans', sans-serif;
+  position: absolute;
+  font-size: 6em;
+  background: none;
+}
+
+.loader p:nth-child(1){
+  color: transparent;
+  -webkit-text-stroke: 3px #0000ff;
+}
+
+.loader p:nth-child(2){
+  color: #0000ff;
+  -webkit-text-stroke: 2px #0000ff;
+  animation: wave 4s ease-in-out infinite;
+}
+
+@keyframes wave{
+  0%,100%{
+    clip-path: polygon(0% 58%, 14% 52%, 31% 49%,
+     46% 51%, 58% 58%, 69% 64%, 80% 67%, 90% 66%,
+     100% 62%, 100% 150%, 0 150%);
+  }
+  50%{
+    clip-path: polygon(0% 58%, 11% 66%, 25% 71%,
+    39% 70%, 52% 64%, 63% 55%, 78% 51%, 89% 53%,
+    100% 60%, 100% 150%, 0 150%);
+
+
+  }
+
+}
+
+.loader.hidden {
+  animation: fadeOut 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+      opacity: 0;
+      visibility: hidden;
+  }
+}
+
 @media (prefers-reduced-motion: reduce){
   .fade {
     animation: none;

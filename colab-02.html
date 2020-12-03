@@ -31,7 +31,8 @@
         <h1>COVID COLOR LAB.02</h1>
         <div class="back">
           <button onclick="back()">Back to Projects</button>
-          <button onclick="prev()">Go to Colab.01</button>
+          <button onclick="colab01()">Go to Colab.01</button>
+          <button onclick="colab00()">Go to Colab.00</button>
         </div>
         <p id="main" lang="ja">
             あなたはコロナについてどんな経験をしましたか？
@@ -62,8 +63,11 @@
       function back() {
         window.history.back();
       }
-      function prev() {
+      function colab01() {
         window.location.href="./colab-01.html";
+      }
+      function colab00() {
+        window.location.href="./colab-00.html";
       }
     </script>
   </body>

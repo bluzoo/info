@@ -13,7 +13,32 @@
     <title>BluZoo - Welcome</title>
   </head>
   <body>
+    <!-- Loader -->
+    <div class="loader">
+      <p>loading</p>
+      <p>loading</p>
+    </div>
+    <script>
+      function load(){
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+        console.log("Page loaded");
+      };
+
+      function delay(){
+        setTimeout(load, 2000);
+      };
+
+      window.addEventListener("load", delay);
+
+    </script>
+
+
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
+
+
+    <!-- main content -->
+
     <header>
       <a href="index.html">
          <img src="images/logo_bw.png" alt="BluZoo logo" id = "logo">
@@ -28,6 +53,8 @@
     </header>
 
     <main id = "main">
+
+    <h2 id="title">Custom Loader - dcode</h2>
       <h1 class = "text">We make art for things that flow and disappear. </h1>
       <!-- Slideshow container -->
       <div class="slideshow-container">
