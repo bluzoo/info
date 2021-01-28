@@ -53,20 +53,22 @@ header{
 }
 
 .nav_item a:hover, a:focus{
-  color: #0000ff;
-  text-decoration: underline;
+
+  /* color: #0000ff; */
+  background: #ffff00;
+  text-decoration: line-through;
   -webkit-text-decoration-style: dotted;
-    text-decoration-style: dotted;
+          text-decoration-style: dotted;
 }
 
 li.nav_item#here a:hover, a:focus{
-    color: #ffff00;
+  color: #ffff00;
 }
 
 #here {
-    text-decoration: line-through;
-    text-decoration-thickness: 0.20em;
-    background: #ffff00;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.20em;
+  background: #ffff00;
 }
 
 main {

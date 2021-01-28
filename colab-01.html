@@ -16,7 +16,7 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
       <a href="index.html">
-         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+        <img src="images/logo.png" alt="BluZoo logo" id="logo" onmouseover="hover(this);" onmouseout="unhover(this);">
       </a>
       <nav>
         <ul class="nav_links">
@@ -63,6 +63,18 @@
       function colab00() {
         window.location.href="./colab-00.html";
       }
+    </script>
+    <script>
+
+      function hover(element) {
+        element.setAttribute('src', "images/logo_bw.png");
+      }
+  
+      function unhover(element) {
+        element.setAttribute('src', "images/logo.png");
+      }
+  
+  
     </script>
   </body>
 </html>

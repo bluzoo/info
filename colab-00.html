@@ -16,7 +16,7 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
       <a href="index.html">
-         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+        <img src="images/logo.png" alt="BluZoo logo" id="logo" onmouseover="hover(this);" onmouseout="unhover(this);">
       </a>
       <nav>
         <ul class="nav_links">
@@ -45,12 +45,14 @@
           interface. This drop will then merge, swirl, and interact with existing
           colors, renewing the painting with a tint of unexpectedness and
           wonder.
+        <br><br>
+          Check out <a href="https://bluzoo.github.io/colab/">our interactive prototype</a> here or <a href="https://forms.gle/ZBGQYij8sBEfovge8">share your memories with us</a>.
         </p>
         <div class = "container">
-          <img class = "iframe" src="images/colab-00/00_Page_10.png" alt="Wireframe of the interactive digital archive website" width=100%/>
+          <img class = "iframe" src="images/colab-00/00_Page_10.png" alt="Wireframe of the interactive digital archive website" width=100% height=auto/>
         </div>
         <div class = "container">
-          <img class = "iframe" src="images/colab-00/Wireframe.png" alt="Wireframe of the interactive digital archive website" width=100%/>
+          <img class = "iframe" src="images/colab-00/Wireframe.png" alt="Wireframe of the interactive digital archive website" width=100% height=auto/>
         </div>
 
     </main>
@@ -72,6 +74,18 @@
       function colab01() {
         window.location.href="./colab-01.html";
       }
+    </script>
+    <script>
+
+      function hover(element) {
+        element.setAttribute('src', "images/logo_bw.png");
+      }
+
+      function unhover(element) {
+        element.setAttribute('src', "images/logo.png");
+      }
+
+
     </script>
   </body>
 </html>

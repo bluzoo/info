@@ -69,8 +69,9 @@ header{
 
 .nav_item a:hover, a:focus{
 
-  color: #0000ff;
-  text-decoration: underline;
+  /* color: #0000ff; */
+  background: #ffff00;
+  text-decoration: line-through;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }

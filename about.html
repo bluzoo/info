@@ -25,7 +25,7 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
       <a href="index.html">
-         <img src="images/logo.png" alt="BluZoo logo" id = "logo">
+         <img src="images/logo.png" alt="BluZoo logo" id="logo" onmouseover="hover(this);" onmouseout="unhover(this);">
       </a>
       <nav>
         <ul class="nav_links">
@@ -173,19 +173,6 @@
             </ul>
           </div>
 
-          <div class = "profile">
-            <h2 class = "name">Morty</h2>
-            <img src="./images/xun.png" alt = "placeholder">
-            <ul>
-              <li class = "location smaller">Living in District 51</li>
-              <li class = "title smaller">Alien.</li>
-              <li class = "school smaller">I don't go to school.</li>
-              <li class = "intro">(haven't appeared yet; intro coming soon)
-                </li>
-            </ul>
-          </div>
-
-
         </div>
     </main>
 
@@ -194,4 +181,16 @@
       <p>&copy; angel tang - 2020</p>
     </footer>
   </body>
+  <script>
+
+    function hover(element) {
+      element.setAttribute('src', "images/logo_bw.png");
+    }
+
+    function unhover(element) {
+      element.setAttribute('src', "images/logo.png");
+    }
+
+
+  </script>
 </html>
